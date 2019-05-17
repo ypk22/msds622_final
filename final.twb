@@ -1,0 +1,2882 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0321.1733                               -->
+<workbook original-version='18.1' source-build='2019.1.2 (20191.19.0321.1733)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Data (total)' inline='true' name='federated.1vsdcm20vgu08j1chdde91ke9vkc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='total' name='excel-direct.1oy4u9x06lh6yv1an2zo8031jpz8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/paulkim/Documents/data_vis/total.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1oy4u9x06lh6yv1an2zo8031jpz8' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:EE10001:no:A1:EE10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='eventid' ordinal='0' />
+            <column datatype='integer' name='iyear' ordinal='1' />
+            <column datatype='integer' name='imonth' ordinal='2' />
+            <column datatype='integer' name='iday' ordinal='3' />
+            <column datatype='string' name='approxdate' ordinal='4' />
+            <column datatype='integer' name='extended' ordinal='5' />
+            <column datatype='date' name='resolution' ordinal='6' />
+            <column datatype='integer' name='country' ordinal='7' />
+            <column datatype='string' name='country_txt' ordinal='8' />
+            <column datatype='integer' name='region' ordinal='9' />
+            <column datatype='string' name='region_txt' ordinal='10' />
+            <column datatype='string' name='provstate' ordinal='11' />
+            <column datatype='string' name='city' ordinal='12' />
+            <column datatype='real' name='latitude' ordinal='13' />
+            <column datatype='real' name='longitude' ordinal='14' />
+            <column datatype='integer' name='specificity' ordinal='15' />
+            <column datatype='integer' name='vicinity' ordinal='16' />
+            <column datatype='string' name='location' ordinal='17' />
+            <column datatype='string' name='summary' ordinal='18' />
+            <column datatype='integer' name='crit1' ordinal='19' />
+            <column datatype='integer' name='crit2' ordinal='20' />
+            <column datatype='integer' name='crit3' ordinal='21' />
+            <column datatype='integer' name='doubtterr' ordinal='22' />
+            <column datatype='integer' name='alternative' ordinal='23' />
+            <column datatype='string' name='alternative_txt' ordinal='24' />
+            <column datatype='integer' name='multiple' ordinal='25' />
+            <column datatype='integer' name='success' ordinal='26' />
+            <column datatype='integer' name='suicide' ordinal='27' />
+            <column datatype='integer' name='attacktype1' ordinal='28' />
+            <column datatype='string' name='attacktype1_txt' ordinal='29' />
+            <column datatype='integer' name='attacktype2' ordinal='30' />
+            <column datatype='string' name='attacktype2_txt' ordinal='31' />
+            <column datatype='integer' name='attacktype3' ordinal='32' />
+            <column datatype='string' name='attacktype3_txt' ordinal='33' />
+            <column datatype='integer' name='targtype1' ordinal='34' />
+            <column datatype='string' name='targtype1_txt' ordinal='35' />
+            <column datatype='integer' name='targsubtype1' ordinal='36' />
+            <column datatype='string' name='targsubtype1_txt' ordinal='37' />
+            <column datatype='string' name='corp1' ordinal='38' />
+            <column datatype='string' name='target1' ordinal='39' />
+            <column datatype='integer' name='natlty1' ordinal='40' />
+            <column datatype='string' name='natlty1_txt' ordinal='41' />
+            <column datatype='integer' name='targtype2' ordinal='42' />
+            <column datatype='string' name='targtype2_txt' ordinal='43' />
+            <column datatype='integer' name='targsubtype2' ordinal='44' />
+            <column datatype='string' name='targsubtype2_txt' ordinal='45' />
+            <column datatype='string' name='corp2' ordinal='46' />
+            <column datatype='string' name='target2' ordinal='47' />
+            <column datatype='integer' name='natlty2' ordinal='48' />
+            <column datatype='string' name='natlty2_txt' ordinal='49' />
+            <column datatype='integer' name='targtype3' ordinal='50' />
+            <column datatype='string' name='targtype3_txt' ordinal='51' />
+            <column datatype='integer' name='targsubtype3' ordinal='52' />
+            <column datatype='string' name='targsubtype3_txt' ordinal='53' />
+            <column datatype='string' name='corp3' ordinal='54' />
+            <column datatype='string' name='target3' ordinal='55' />
+            <column datatype='integer' name='natlty3' ordinal='56' />
+            <column datatype='string' name='natlty3_txt' ordinal='57' />
+            <column datatype='string' name='gname' ordinal='58' />
+            <column datatype='string' name='gsubname' ordinal='59' />
+            <column datatype='string' name='gname2' ordinal='60' />
+            <column datatype='string' name='gsubname2' ordinal='61' />
+            <column datatype='string' name='gname3' ordinal='62' />
+            <column datatype='string' name='gsubname3' ordinal='63' />
+            <column datatype='string' name='motive' ordinal='64' />
+            <column datatype='integer' name='guncertain1' ordinal='65' />
+            <column datatype='integer' name='guncertain2' ordinal='66' />
+            <column datatype='string' name='guncertain3' ordinal='67' />
+            <column datatype='integer' name='individual' ordinal='68' />
+            <column datatype='integer' name='nperps' ordinal='69' />
+            <column datatype='integer' name='nperpcap' ordinal='70' />
+            <column datatype='integer' name='claimed' ordinal='71' />
+            <column datatype='integer' name='claimmode' ordinal='72' />
+            <column datatype='string' name='claimmode_txt' ordinal='73' />
+            <column datatype='integer' name='claim2' ordinal='74' />
+            <column datatype='integer' name='claimmode2' ordinal='75' />
+            <column datatype='string' name='claimmode2_txt' ordinal='76' />
+            <column datatype='string' name='claim3' ordinal='77' />
+            <column datatype='string' name='claimmode3' ordinal='78' />
+            <column datatype='string' name='claimmode3_txt' ordinal='79' />
+            <column datatype='integer' name='compclaim' ordinal='80' />
+            <column datatype='integer' name='weaptype1' ordinal='81' />
+            <column datatype='string' name='weaptype1_txt' ordinal='82' />
+            <column datatype='integer' name='weapsubtype1' ordinal='83' />
+            <column datatype='string' name='weapsubtype1_txt' ordinal='84' />
+            <column datatype='integer' name='weaptype2' ordinal='85' />
+            <column datatype='string' name='weaptype2_txt' ordinal='86' />
+            <column datatype='integer' name='weapsubtype2' ordinal='87' />
+            <column datatype='string' name='weapsubtype2_txt' ordinal='88' />
+            <column datatype='integer' name='weaptype3' ordinal='89' />
+            <column datatype='string' name='weaptype3_txt' ordinal='90' />
+            <column datatype='integer' name='weapsubtype3' ordinal='91' />
+            <column datatype='string' name='weapsubtype3_txt' ordinal='92' />
+            <column datatype='integer' name='weaptype4' ordinal='93' />
+            <column datatype='string' name='weaptype4_txt' ordinal='94' />
+            <column datatype='integer' name='weapsubtype4' ordinal='95' />
+            <column datatype='string' name='weapsubtype4_txt' ordinal='96' />
+            <column datatype='string' name='weapdetail' ordinal='97' />
+            <column datatype='integer' name='nkill' ordinal='98' />
+            <column datatype='integer' name='nkillus' ordinal='99' />
+            <column datatype='integer' name='nkillter' ordinal='100' />
+            <column datatype='integer' name='nwound' ordinal='101' />
+            <column datatype='integer' name='nwoundus' ordinal='102' />
+            <column datatype='integer' name='nwoundte' ordinal='103' />
+            <column datatype='integer' name='property' ordinal='104' />
+            <column datatype='integer' name='propextent' ordinal='105' />
+            <column datatype='string' name='propextent_txt' ordinal='106' />
+            <column datatype='integer' name='propvalue' ordinal='107' />
+            <column datatype='string' name='propcomment' ordinal='108' />
+            <column datatype='integer' name='ishostkid' ordinal='109' />
+            <column datatype='integer' name='nhostkid' ordinal='110' />
+            <column datatype='integer' name='nhostkidus' ordinal='111' />
+            <column datatype='real' name='nhours' ordinal='112' />
+            <column datatype='integer' name='ndays' ordinal='113' />
+            <column datatype='string' name='divert' ordinal='114' />
+            <column datatype='string' name='kidhijcountry' ordinal='115' />
+            <column datatype='integer' name='ransom' ordinal='116' />
+            <column datatype='integer' name='ransomamt' ordinal='117' />
+            <column datatype='integer' name='ransomamtus' ordinal='118' />
+            <column datatype='integer' name='ransompaid' ordinal='119' />
+            <column datatype='integer' name='ransompaidus' ordinal='120' />
+            <column datatype='string' name='ransomnote' ordinal='121' />
+            <column datatype='integer' name='hostkidoutcome' ordinal='122' />
+            <column datatype='string' name='hostkidoutcome_txt' ordinal='123' />
+            <column datatype='integer' name='nreleased' ordinal='124' />
+            <column datatype='string' name='addnotes' ordinal='125' />
+            <column datatype='string' name='scite1' ordinal='126' />
+            <column datatype='string' name='scite2' ordinal='127' />
+            <column datatype='string' name='scite3' ordinal='128' />
+            <column datatype='string' name='dbsource' ordinal='129' />
+            <column datatype='integer' name='INT_LOG' ordinal='130' />
+            <column datatype='integer' name='INT_IDEO' ordinal='131' />
+            <column datatype='integer' name='INT_MISC' ordinal='132' />
+            <column datatype='integer' name='INT_ANY' ordinal='133' />
+            <column datatype='string' name='related' ordinal='134' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>eventid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eventid]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>eventid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iyear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iyear]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>iyear</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[imonth]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>imonth</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iday]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>iday</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>approxdate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[approxdate]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>approxdate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extended</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[extended]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>extended</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resolution</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[resolution]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>resolution</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>country_txt</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[region_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>region_txt</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provstate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[provstate]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>provstate</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>specificity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[specificity]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>specificity</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vicinity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vicinity]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>vicinity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>summary</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[summary]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>summary</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crit1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crit1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>crit1</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crit2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crit2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>crit2</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crit3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crit3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>crit3</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>doubtterr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[doubtterr]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>doubtterr</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alternative</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[alternative]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>alternative</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alternative_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[alternative_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>alternative_txt</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>multiple</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[multiple]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>multiple</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>success</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[success]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>success</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>suicide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[suicide]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>suicide</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacktype1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>attacktype1</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype1_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[attacktype1_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>attacktype1_txt</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacktype2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>attacktype2</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[attacktype2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>attacktype2_txt</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacktype3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>attacktype3</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[attacktype3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>attacktype3_txt</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targtype1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targtype1</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype1_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[targtype1_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targtype1_txt</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targsubtype1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targsubtype1</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype1_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[targsubtype1_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targsubtype1_txt</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corp1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[corp1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>corp1</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[target1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>target1</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natlty1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>natlty1</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty1_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[natlty1_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>natlty1_txt</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targtype2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targtype2</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[targtype2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targtype2_txt</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targsubtype2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targsubtype2</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[targsubtype2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targsubtype2_txt</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corp2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[corp2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>corp2</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[target2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>target2</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natlty2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>natlty2</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[natlty2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>natlty2_txt</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targtype3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targtype3</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[targtype3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targtype3_txt</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targsubtype3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targsubtype3</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[targsubtype3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>targsubtype3_txt</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corp3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[corp3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>corp3</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[target3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>target3</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natlty3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>natlty3</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[natlty3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>natlty3_txt</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gname</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gname]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>gname</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsubname</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gsubname]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>gsubname</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gname2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gname2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>gname2</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsubname2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gsubname2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>gsubname2</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gname3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gname3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>gname3</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsubname3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gsubname3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>gsubname3</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>motive</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[motive]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>motive</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guncertain1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[guncertain1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>guncertain1</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guncertain2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[guncertain2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>guncertain2</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guncertain3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[guncertain3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>guncertain3</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>individual</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[individual]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>individual</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nperps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nperps]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nperps</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nperpcap</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nperpcap]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nperpcap</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claimed]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimed</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claimmode]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimmode</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[claimmode_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimmode_txt</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claim2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claim2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claim2</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claimmode2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimmode2</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[claimmode2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimmode2_txt</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claim3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[claim3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claim3</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[claimmode3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimmode3</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[claimmode3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>claimmode3_txt</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>compclaim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[compclaim]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>compclaim</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype1</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype1_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weaptype1_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype1_txt</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype1</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype1_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapsubtype1_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype1_txt</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype2</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weaptype2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype2_txt</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype2</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype2_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapsubtype2_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype2_txt</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype3</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weaptype3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype3_txt</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype3</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype3_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapsubtype3_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype3_txt</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype4]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype4</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype4_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weaptype4_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weaptype4_txt</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype4]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype4</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype4_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapsubtype4_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapsubtype4_txt</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapdetail</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapdetail]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>weapdetail</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nkill</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nkill]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nkill</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nkillus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nkillus]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nkillus</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nkillter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nkillter]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nkillter</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nwound</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nwound]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nwound</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nwoundus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nwoundus]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nwoundus</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nwoundte</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nwoundte]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nwoundte</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[property]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>property</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propextent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[propextent]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>propextent</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propextent_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[propextent_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>propextent_txt</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propvalue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[propvalue]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>propvalue</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propcomment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[propcomment]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>propcomment</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ishostkid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ishostkid]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ishostkid</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhostkid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nhostkid]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nhostkid</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhostkidus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nhostkidus]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nhostkidus</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nhours]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nhours</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ndays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ndays]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ndays</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>divert</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[divert]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>divert</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kidhijcountry</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[kidhijcountry]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>kidhijcountry</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransom]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ransom</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransomamt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransomamt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ransomamt</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransomamtus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransomamtus]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ransomamtus</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransompaid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransompaid]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ransompaid</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransompaidus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransompaidus]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ransompaidus</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransomnote</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ransomnote]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>ransomnote</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hostkidoutcome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hostkidoutcome]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>hostkidoutcome</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hostkidoutcome_txt</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hostkidoutcome_txt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>hostkidoutcome_txt</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nreleased</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nreleased]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>nreleased</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>addnotes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[addnotes]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>addnotes</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scite1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[scite1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>scite1</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scite2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[scite2]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>scite2</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scite3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[scite3]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>scite3</remote-alias>
+            <ordinal>128</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbsource</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[dbsource]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>dbsource</remote-alias>
+            <ordinal>129</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_LOG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_LOG]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>INT_LOG</remote-alias>
+            <ordinal>130</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_IDEO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_IDEO]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>INT_IDEO</remote-alias>
+            <ordinal>131</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_MISC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_MISC]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>INT_MISC</remote-alias>
+            <ordinal>132</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_ANY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_ANY]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>INT_ANY</remote-alias>
+            <ordinal>133</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>related</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[related]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>related</remote-alias>
+            <ordinal>134</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:EE10001:no:A1:EE10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Int Any' datatype='integer' name='[INT_ANY]' role='measure' type='quantitative' />
+      <column caption='Int Ideo' datatype='integer' name='[INT_IDEO]' role='measure' type='quantitative' />
+      <column caption='Int Log' datatype='integer' name='[INT_LOG]' role='measure' type='quantitative' />
+      <column caption='Int Misc' datatype='integer' name='[INT_MISC]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Addnotes' datatype='string' name='[addnotes]' role='dimension' type='nominal' />
+      <column caption='Alternative' datatype='integer' name='[alternative]' role='measure' type='quantitative' />
+      <column caption='Alternative Txt' datatype='string' name='[alternative_txt]' role='dimension' type='nominal' />
+      <column caption='Approxdate' datatype='string' name='[approxdate]' role='dimension' type='nominal' />
+      <column caption='Attacktype1' datatype='integer' name='[attacktype1]' role='measure' type='quantitative' />
+      <column caption='Attacktype1 Txt' datatype='string' name='[attacktype1_txt]' role='dimension' type='nominal' />
+      <column caption='Attacktype2' datatype='integer' name='[attacktype2]' role='measure' type='quantitative' />
+      <column caption='Attacktype2 Txt' datatype='string' name='[attacktype2_txt]' role='dimension' type='nominal' />
+      <column caption='Attacktype3' datatype='integer' name='[attacktype3]' role='measure' type='quantitative' />
+      <column caption='Attacktype3 Txt' datatype='string' name='[attacktype3_txt]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Claim2' datatype='integer' name='[claim2]' role='measure' type='quantitative' />
+      <column caption='Claim3' datatype='string' name='[claim3]' role='dimension' type='nominal' />
+      <column caption='Claimed' datatype='integer' name='[claimed]' role='measure' type='quantitative' />
+      <column caption='Claimmode2' datatype='integer' name='[claimmode2]' role='measure' type='quantitative' />
+      <column caption='Claimmode2 Txt' datatype='string' name='[claimmode2_txt]' role='dimension' type='nominal' />
+      <column caption='Claimmode3' datatype='string' name='[claimmode3]' role='dimension' type='nominal' />
+      <column caption='Claimmode3 Txt' datatype='string' name='[claimmode3_txt]' role='dimension' type='nominal' />
+      <column caption='Claimmode' datatype='integer' name='[claimmode]' role='measure' type='quantitative' />
+      <column caption='Claimmode Txt' datatype='string' name='[claimmode_txt]' role='dimension' type='nominal' />
+      <column caption='Compclaim' datatype='integer' name='[compclaim]' role='measure' type='quantitative' />
+      <column caption='Corp1' datatype='string' name='[corp1]' role='dimension' type='nominal' />
+      <column caption='Corp2' datatype='string' name='[corp2]' role='dimension' type='nominal' />
+      <column caption='Corp3' datatype='string' name='[corp3]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='integer' name='[country]' role='measure' type='quantitative' />
+      <column caption='Country Txt' datatype='string' name='[country_txt]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Crit1' datatype='integer' name='[crit1]' role='measure' type='quantitative' />
+      <column caption='Crit2' datatype='integer' name='[crit2]' role='measure' type='quantitative' />
+      <column caption='Crit3' datatype='integer' name='[crit3]' role='measure' type='quantitative' />
+      <column caption='Dbsource' datatype='string' name='[dbsource]' role='dimension' type='nominal' />
+      <column caption='Divert' datatype='string' name='[divert]' role='dimension' type='nominal' />
+      <column caption='Doubtterr' datatype='integer' name='[doubtterr]' role='measure' type='quantitative' />
+      <column caption='Eventid' datatype='integer' name='[eventid]' role='measure' type='quantitative' />
+      <column caption='Extended' datatype='integer' name='[extended]' role='measure' type='quantitative' />
+      <column caption='Gname2' datatype='string' name='[gname2]' role='dimension' type='nominal' />
+      <column caption='Gname3' datatype='string' name='[gname3]' role='dimension' type='nominal' />
+      <column caption='Gname' datatype='string' name='[gname]' role='dimension' type='nominal' />
+      <column caption='Gsubname2' datatype='string' name='[gsubname2]' role='dimension' type='nominal' />
+      <column caption='Gsubname3' datatype='string' name='[gsubname3]' role='dimension' type='nominal' />
+      <column caption='Gsubname' datatype='string' name='[gsubname]' role='dimension' type='nominal' />
+      <column caption='Guncertain1' datatype='integer' name='[guncertain1]' role='measure' type='quantitative' />
+      <column caption='Guncertain2' datatype='integer' name='[guncertain2]' role='measure' type='quantitative' />
+      <column caption='Guncertain3' datatype='string' name='[guncertain3]' role='dimension' type='nominal' />
+      <column caption='Hostkidoutcome' datatype='integer' name='[hostkidoutcome]' role='measure' type='quantitative' />
+      <column caption='Hostkidoutcome Txt' datatype='string' name='[hostkidoutcome_txt]' role='dimension' type='nominal' />
+      <column caption='Iday' datatype='integer' name='[iday]' role='measure' type='quantitative' />
+      <column caption='Imonth' datatype='integer' name='[imonth]' role='measure' type='quantitative' />
+      <column caption='Individual' datatype='integer' name='[individual]' role='measure' type='quantitative' />
+      <column caption='Ishostkid' datatype='integer' name='[ishostkid]' role='measure' type='quantitative' />
+      <column caption='Iyear' datatype='integer' name='[iyear]' role='measure' type='quantitative' />
+      <column caption='Kidhijcountry' datatype='string' name='[kidhijcountry]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Motive' datatype='string' name='[motive]' role='dimension' type='nominal' />
+      <column caption='Multiple' datatype='integer' name='[multiple]' role='measure' type='quantitative' />
+      <column caption='Natlty1' datatype='integer' name='[natlty1]' role='measure' type='quantitative' />
+      <column caption='Natlty1 Txt' datatype='string' name='[natlty1_txt]' role='dimension' type='nominal' />
+      <column caption='Natlty2' datatype='integer' name='[natlty2]' role='measure' type='quantitative' />
+      <column caption='Natlty2 Txt' datatype='string' name='[natlty2_txt]' role='dimension' type='nominal' />
+      <column caption='Natlty3' datatype='integer' name='[natlty3]' role='measure' type='quantitative' />
+      <column caption='Natlty3 Txt' datatype='string' name='[natlty3_txt]' role='dimension' type='nominal' />
+      <column caption='Ndays' datatype='integer' name='[ndays]' role='measure' type='quantitative' />
+      <column caption='Nhostkid' datatype='integer' name='[nhostkid]' role='measure' type='quantitative' />
+      <column caption='Nhostkidus' datatype='integer' name='[nhostkidus]' role='measure' type='quantitative' />
+      <column caption='Nhours' datatype='real' name='[nhours]' role='measure' type='quantitative' />
+      <column caption='Nkill' datatype='integer' name='[nkill]' role='measure' type='quantitative' />
+      <column caption='Nkillter' datatype='integer' name='[nkillter]' role='measure' type='quantitative' />
+      <column caption='Nkillus' datatype='integer' name='[nkillus]' role='measure' type='quantitative' />
+      <column caption='Nperpcap' datatype='integer' name='[nperpcap]' role='measure' type='quantitative' />
+      <column caption='Nperps' datatype='integer' name='[nperps]' role='measure' type='quantitative' />
+      <column caption='Nreleased' datatype='integer' name='[nreleased]' role='measure' type='quantitative' />
+      <column caption='Nwound' datatype='integer' name='[nwound]' role='measure' type='quantitative' />
+      <column caption='Nwoundte' datatype='integer' name='[nwoundte]' role='measure' type='quantitative' />
+      <column caption='Nwoundus' datatype='integer' name='[nwoundus]' role='measure' type='quantitative' />
+      <column caption='Propcomment' datatype='string' name='[propcomment]' role='dimension' type='nominal' />
+      <column caption='Property' datatype='integer' name='[property]' role='measure' type='quantitative' />
+      <column caption='Propextent' datatype='integer' name='[propextent]' role='measure' type='quantitative' />
+      <column caption='Propextent Txt' datatype='string' name='[propextent_txt]' role='dimension' type='nominal' />
+      <column caption='Propvalue' datatype='integer' name='[propvalue]' role='measure' type='quantitative' />
+      <column caption='Provstate' datatype='string' name='[provstate]' role='dimension' type='nominal' />
+      <column caption='Ransom' datatype='integer' name='[ransom]' role='measure' type='quantitative' />
+      <column caption='Ransomamt' datatype='integer' name='[ransomamt]' role='measure' type='quantitative' />
+      <column caption='Ransomamtus' datatype='integer' name='[ransomamtus]' role='measure' type='quantitative' />
+      <column caption='Ransomnote' datatype='string' name='[ransomnote]' role='dimension' type='nominal' />
+      <column caption='Ransompaid' datatype='integer' name='[ransompaid]' role='measure' type='quantitative' />
+      <column caption='Ransompaidus' datatype='integer' name='[ransompaidus]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='integer' name='[region]' role='measure' type='quantitative' />
+      <column caption='Region Txt' datatype='string' name='[region_txt]' role='dimension' type='nominal' />
+      <column caption='Related' datatype='string' name='[related]' role='dimension' type='nominal' />
+      <column caption='Resolution' datatype='date' name='[resolution]' role='dimension' type='ordinal' />
+      <column caption='Scite1' datatype='string' name='[scite1]' role='dimension' type='nominal' />
+      <column caption='Scite2' datatype='string' name='[scite2]' role='dimension' type='nominal' />
+      <column caption='Scite3' datatype='string' name='[scite3]' role='dimension' type='nominal' />
+      <column caption='Specificity' datatype='integer' name='[specificity]' role='measure' type='quantitative' />
+      <column caption='Success' datatype='integer' name='[success]' role='measure' type='quantitative' />
+      <column caption='Suicide' datatype='integer' name='[suicide]' role='measure' type='quantitative' />
+      <column caption='Summary' datatype='string' name='[summary]' role='dimension' type='nominal' />
+      <column caption='Target1' datatype='string' name='[target1]' role='dimension' type='nominal' />
+      <column caption='Target2' datatype='string' name='[target2]' role='dimension' type='nominal' />
+      <column caption='Target3' datatype='string' name='[target3]' role='dimension' type='nominal' />
+      <column caption='Targsubtype1' datatype='integer' name='[targsubtype1]' role='measure' type='quantitative' />
+      <column caption='Targsubtype1 Txt' datatype='string' name='[targsubtype1_txt]' role='dimension' type='nominal' />
+      <column caption='Targsubtype2' datatype='integer' name='[targsubtype2]' role='measure' type='quantitative' />
+      <column caption='Targsubtype2 Txt' datatype='string' name='[targsubtype2_txt]' role='dimension' type='nominal' />
+      <column caption='Targsubtype3' datatype='integer' name='[targsubtype3]' role='measure' type='quantitative' />
+      <column caption='Targsubtype3 Txt' datatype='string' name='[targsubtype3_txt]' role='dimension' type='nominal' />
+      <column caption='Targtype1' datatype='integer' name='[targtype1]' role='measure' type='quantitative' />
+      <column caption='Targtype1 Txt' datatype='string' name='[targtype1_txt]' role='dimension' type='nominal' />
+      <column caption='Targtype2' datatype='integer' name='[targtype2]' role='measure' type='quantitative' />
+      <column caption='Targtype2 Txt' datatype='string' name='[targtype2_txt]' role='dimension' type='nominal' />
+      <column caption='Targtype3' datatype='integer' name='[targtype3]' role='measure' type='quantitative' />
+      <column caption='Targtype3 Txt' datatype='string' name='[targtype3_txt]' role='dimension' type='nominal' />
+      <column caption='Vicinity' datatype='integer' name='[vicinity]' role='measure' type='quantitative' />
+      <column caption='Weapdetail' datatype='string' name='[weapdetail]' role='dimension' type='nominal' />
+      <column caption='Weapsubtype1' datatype='integer' name='[weapsubtype1]' role='measure' type='quantitative' />
+      <column caption='Weapsubtype1 Txt' datatype='string' name='[weapsubtype1_txt]' role='dimension' type='nominal' />
+      <column caption='Weapsubtype2' datatype='integer' name='[weapsubtype2]' role='measure' type='quantitative' />
+      <column caption='Weapsubtype2 Txt' datatype='string' name='[weapsubtype2_txt]' role='dimension' type='nominal' />
+      <column caption='Weapsubtype3' datatype='integer' name='[weapsubtype3]' role='measure' type='quantitative' />
+      <column caption='Weapsubtype3 Txt' datatype='string' name='[weapsubtype3_txt]' role='dimension' type='nominal' />
+      <column caption='Weapsubtype4' datatype='integer' name='[weapsubtype4]' role='measure' type='quantitative' />
+      <column caption='Weapsubtype4 Txt' datatype='string' name='[weapsubtype4_txt]' role='dimension' type='nominal' />
+      <column caption='Weaptype1' datatype='integer' name='[weaptype1]' role='measure' type='quantitative' />
+      <column caption='Weaptype1 Txt' datatype='string' name='[weaptype1_txt]' role='dimension' type='nominal' />
+      <column caption='Weaptype2' datatype='integer' name='[weaptype2]' role='measure' type='quantitative' />
+      <column caption='Weaptype2 Txt' datatype='string' name='[weaptype2_txt]' role='dimension' type='nominal' />
+      <column caption='Weaptype3' datatype='integer' name='[weaptype3]' role='measure' type='quantitative' />
+      <column caption='Weaptype3 Txt' datatype='string' name='[weaptype3_txt]' role='dimension' type='nominal' />
+      <column caption='Weaptype4' datatype='integer' name='[weaptype4]' role='measure' type='quantitative' />
+      <column caption='Weaptype4 Txt' datatype='string' name='[weaptype4_txt]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.555556' measure-ordering='alphabetic' measure-percentage='0.444444' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Treemapping of Attacks in US by Group, 2003-2017</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (total)' name='federated.1vsdcm20vgu08j1chdde91ke9vkc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vsdcm20vgu08j1chdde91ke9vkc'>
+            <column-instance column='[nwound]' derivation='Count' name='[cnt:nwound:qk]' pivot='key' type='quantitative' />
+            <column caption='Country Txt' datatype='string' name='[country_txt]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Gname' datatype='string' name='[gname]' role='dimension' type='nominal' />
+            <column caption='Iyear' datatype='integer' name='[iyear]' role='measure' type='quantitative' />
+            <column-instance column='[country_txt]' derivation='None' name='[none:country_txt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gname]' derivation='None' name='[none:gname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[iyear]' derivation='None' name='[none:iyear:qk]' pivot='key' type='quantitative' />
+            <column caption='Nwound' datatype='integer' name='[nwound]' role='measure' type='quantitative' />
+            <column-instance column='[nwound]' derivation='Sum' name='[sum:nwound:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:country_txt:nk]'>
+            <groupfilter function='member' level='[none:country_txt:nk]' member='&quot;United States&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:gname:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Action Squad&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;African-American extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Al-Qaida&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Al-Qaida in the Arabian Peninsula (AQAP)&quot;' />
+              <groupfilter from='&quot;American Indian Movement&quot;' function='range' level='[none:gname:nk]' to='&quot;Americans for Justice&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anarchists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Animal Liberation Front (ALF)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Animal Rights extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti Shah of Iran&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Abortion extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Arab extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Castro Command&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Castro Group&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Communist Viets Organization&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Environmentalists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Government extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Government Group&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Gun Control extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Israeli extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Kim Jong-il extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-LGBT extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Liberal extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Muslim extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Nuclear extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Police extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Republican extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Semitic extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Sikh extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Technology extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-Trump extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Anti-White extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Antonia Martinez Student Commandos (AMSC)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Arabs&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armed Commandos of Liberation&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armed Commandos of Student Self Defense&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armed Forces of Popular Resistance (FARP)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armed Revolutionary Independence Movement (MIRA)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armenian Group&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armenian Secret Army for the Liberation of Armenia&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Armenians&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Army of God&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Aryan Nation&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Aryan Republican Army&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;BAY Bombers&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black Afro Militant Movement&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black American Moslems&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black Brigade (United States)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black Hebrew Israelites&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black Liberation Army&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black Muslims&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Black Nationalists&quot;' />
+              <groupfilter from='&quot;Black Panthers&quot;' function='range' level='[none:gname:nk]' to='&quot;Black September&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Boricua Revolutionary Front&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Chicano Liberation Front&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Chicano Radicals&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Christian Liberation Army&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Citizens for Constitutional Freedom&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Coalition to Save the Preserves (CSP)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Comrades in Arms&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Condor&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Continental Revolutionary Army&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Coordination of the United Revolutionary Organization (CORU)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Court Reform extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Covenant, Sword and the Arm of the Lord (CSA)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Croatian Freedom Fighters&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Croatian Liberation Army&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Croatian Nationalists&quot;' />
+              <groupfilter from='&quot;Cuban Action&quot;' function='range' level='[none:gname:nk]' to='&quot;Cuban Secret Army&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Cypriot&quot;' />
+              <groupfilter from='&quot;Earth First!&quot;' function='range' level='[none:gname:nk]' to='&quot;Earth Night Action Group&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;East Side Action Committee&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;El Movimiento Revolucionario Independinista&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Environmental Life Force&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Environmentalists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Evan Mecham Eco-Terrorist International Conspiracy (EMETIC)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Farm Animal Revenge Militia (FARM)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Fourth Reich Skinheads&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Fred Hampton Unit of the People&apos;s Forces&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Front for the National Liberation of Puerto Rico&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Fuerzas Armadas de Liberacion Nacional (FALN)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Gaddafi loyalists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Gay Liberation Front&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;George Jackson Brigade&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Grupo Estrella&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Guerrilla Forces for Liberation&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Hanafi Muslims&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Hatikvah Leumi or National Hope&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Hawaiian extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Imperial Iranian Patriotic Organization&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Incel extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Independent Armed Revolutionary Commandos (CRIA)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;International Committee Against Nazism&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Iranian extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Iranians&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Iraqi extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Irish Republican Army (IRA)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Islamist extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Jamaat-al-Fuqra&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Jewish Armed Resistance&quot;' />
+              <groupfilter from='&quot;Jewish Committee of Concern&quot;' function='range' level='[none:gname:nk]' to='&quot;Jewish Defense League (JDL)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Jewish Direct Action&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Jewish Extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Jihadi-inspired extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Jonathan Jackson Brigade&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Justice Commandos for the Armenian Genocide&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Kahane Chai&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Ku Klux Klan&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Latin America Anti-Communist Army (LAACA)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Lebanese Man&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Left-wing extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Left-Wing Militants&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Libyan Students&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Lolita Lebron Puerto Rican Liberation Command&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Luis Boitel Commandos&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;M-7&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Maccabee Squad and the Shield of David&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Macheteros&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;May 15 Organization for the Liberation of Palestine&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;May 19 Communist Order&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Medellin Drug Cartel&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Mexican Revolutionary Movement&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Minutemen American Defense&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Mormon Extremist&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Movement for Cuban Justice (Pragmatistas)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Mujahedin-e Khalq (MEK)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Muslim extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;National Committee to Combat Fascism&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;National Front for the Liberation of Cuba (FLNC)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;National Integration Front (FIN)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;National Socialist Liberation Front&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Neo-Nazi extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;New Jewish Defense League&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;New World Liberation Front (NWLF)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;New Year&apos;s Gang&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Ninth of June Organization&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Nuclear Liberation Front&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Omega-7&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Organization 544&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Organization Alliance of Cuban Intransigence&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Organization of Volunteers for the Puerto Rican Revolution&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Otpor&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Palestine Liberation Organization (PLO)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Palestinians&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Pedro Albizu Campos Revolutionary Forces&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;People&apos;s Brigade For A Healthy Genetic Future&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;People&apos;s Liberation Army (United States)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;People&apos;s Revolutionary Party&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Phineas Priesthood&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Popular Front for the Liberation of Palestine (PFLP)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Popular Liberation Army (Puerto Rico)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Posse Comitatus&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Pro-LGBT Rights extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Provisional Coordinating Committee for the Defense of Labor&quot;' />
+              <groupfilter from='&quot;Puerto Rican Armed Resistance&quot;' function='range' level='[none:gname:nk]' to='&quot;Puerto Rican Revolutionary Movement&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Qaddafi loyalists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Quartermoon Society&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Rajneeshees&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Red Guerilla Family&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Regulators&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Republic of New Afrika&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Republic of Texas&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Revenge of the Trees&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Revolutionary Action Party&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Revolutionary Cells-Animal Liberation Brigade&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Revolutionary Commandos of the People (CRP)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Revolutionary Communist Youth Brigade (RCYB)&quot;' />
+              <groupfilter from='&quot;Revolutionary Force 26&quot;' function='range' level='[none:gname:nk]' to='&quot;Revolutionary Force Seven&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Revolutionary Labor Commandos&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Right-wing extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;ROSADO-SOTO Command&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Save Our Israel Land&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Seattle Liberation Front&quot;' />
+              <groupfilter from='&quot;Secret Army Organization&quot;' function='range' level='[none:gname:nk]' to='&quot;Secret Organization Zero&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Serbian Nationalists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Sons of Liberty&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Sons of the Gestapo&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Sovereign Citizen&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Stop the War Coalition&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Strikers&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Student Radicals&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Students for a Democratic Society&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Students For Insurrection&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Supporters of Charles Manson&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Symbionese Liberation Army (SLA)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Tehrik-i-Taliban Pakistan (TTP)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;The Jewish Execution with Silence&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;The Justice Department&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;The Order (Silent Brotherhood)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;The Order II (Bruder Schweigen Strike Force II)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;The Scorpion&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;The World United Formosans for Independence (WUFI)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Thunder of Zion&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Tontons Macoutes&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Tribal Thumb&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;United Aryan Empire&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;United Freedom Front (UFF)&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;United Jewish Underground&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Universal Proutist Revolutionary Federation&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Up the IRS, Inc&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Veterans United for Non-Religious Memorials&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Vietnamese Organization to Exterminate Communists and Restore the Nation&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Vietnamese Refugees&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Weather Underground, Weathermen&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Welsh Extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;White extremists&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;White Panther Party&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;White Rabbit Three Percent Illinois Patriot Freedom Fighters Militia&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;World Church of the Creator&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Worldwide Organization of Native Taiwanese&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Young Cuba&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Youth of the Star&quot;' />
+              <groupfilter function='member' level='[none:gname:nk]' member='&quot;Zebra killers&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:iyear:qk]' included-values='in-range'>
+            <min>2003</min>
+            <max>2017</max>
+          </filter>
+          <slices>
+            <column>[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:country_txt:nk]</column>
+            <column>[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:gname:nk]</column>
+            <column>[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:iyear:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[cnt:nwound:qk]' />
+              <color column='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[sum:nwound:qk]' />
+              <text column='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:gname:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{33990979-10E2-4099-9891-E455BB4A0522}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{855B9DE9-FF8E-46FC-8BA9-D3B8024DA342}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='149'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.1vsdcm20vgu08j1chdde91ke9vkc].[sum:nwound:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:country_txt:nk]</field>
+            <field>[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:gname:nk]</field>
+            <field>[federated.1vsdcm20vgu08j1chdde91ke9vkc].[none:iyear:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4D0B7B47-2C69-427E-B9B2-AA07AC2E4BDB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{44632C43-D350-4C48-B945-3619C3AEAAE5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 2' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
